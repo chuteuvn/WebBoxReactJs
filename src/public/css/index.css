@@ -1,0 +1,114 @@
+body{
+}
+.bofy-color{
+  background-color: yellowgreen;
+  width: 100px;
+}
+.iconMenu{
+  font-size: 24px !important;
+}
+.bg-color{
+  background-color: #f0f2f5;
+}
+#setting-menu li{
+  margin: 0;
+    padding-right: 20px;
+    position: relative;
+    border-right: 1px solid #ebebeb;
+    background: none;
+    cursor: pointer;
+}
+#setting-menu ul.nav-tabs {
+  background: #fff;
+  border: 1px solid #ebebeb;
+}
+#setting-menu li.nav-active{
+  border-top: 4px solid #db2c2c;
+}
+.nav-tabs .nav-link{
+      border: 0;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border-color: #fff
+}
+#setting-menu li a{
+  display: initial;
+  padding: 0 0 0 20px;
+  color: #212121;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: none;
+  border: 0 none;
+  border-radius: 0;
+}
+#setting-menu{
+  /* background-color: #db2c2c */
+}
+.numberItem{
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: #db2c2c;
+    color: #fff;
+    font-family: open-sans-bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 100%;
+    margin: 2px auto 0px auto;
+}
+.step-number span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.step-number {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #db2c2c;
+  border-radius: 100%;
+}
+.properties-row{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.properties-row .btn-group{
+  margin-left: 20px;
+}
+.box-content{
+  border: 1px solid #db2c2c;
+  background-color: #fff;  
+}
+.scroll-wrapper{
+  margin: 10px;
+}
+.form-check{
+  text-align: right;
+}
+.btn-choose-style{
+  margin: 0px;
+  padding: 6px 12px;
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(-90deg, #e6e6e6, #d5d5d5);
+  background-image: -webkit-linear-gradient(-90deg, #e6e6e6, #d5d5d5);
+  background-image: -moz-linear-gradient(-90deg, #e6e6e6, #d5d5d5);
+  background-image: -ms-linear-gradient(-90deg, #e6e6e6, #d5d5d5);
+  background-image: -o-linear-gradient(-90deg, #e6e6e6, #d5d5d5);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  box-shadow: none;
+  cursor: pointer;
+}
+.button:focus .btn-choose-style:focus{
+  padding: 7px 13px;
+  background: none repeat scroll 0 0 #da3637;
+  border: none;
+  box-shadow: 1px 1px 2px #912324 inset;
+}
+.btn-image.gallery-item{
+  margin: 3px;
+}
