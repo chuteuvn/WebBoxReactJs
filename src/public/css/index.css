@@ -4,6 +4,7 @@ body{
   background-color: yellowgreen;
   width: 100px;
 }
+
 .iconMenu{
   font-size: 24px !important;
 }
@@ -85,7 +86,7 @@ body{
 .scroll-wrapper{
   margin: 10px;
 }
-.form-check{
+.form-check-box{
   text-align: right;
 }
 .btn-choose-style{

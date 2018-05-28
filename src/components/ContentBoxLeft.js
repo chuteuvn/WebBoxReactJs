@@ -77,7 +77,7 @@ export default class ContentBoxLeft extends Component {
                         <label>Link to Page (URL)</label>
                         <input type="text" className="form-control" placeholder="Eg http://yourwebsite.com" />
                     </div>
-                    <div className="form-check">
+                    <div className="form-check-box">
                         <label className="form-check-label">
                             <input type="checkbox" className="form-check-input" value="" />Open link on new tab
                         </label>

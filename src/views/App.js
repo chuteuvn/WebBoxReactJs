@@ -2,26 +2,15 @@ import React, { Component } from 'react';
 import MenuContent from '../components/MenuCenter'
 import '../public/css/index.css'
 import Menu from './Menu';
-import Modal from '../components/Modals';
 import Content from './Content';
+import ModalView from '../components/Modals';
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      click: true,
-      modal: false
+      click: true
     };
-    this.toggle = this.toggle.bind(this);
-  }
-
-  toggle(){
-    this.setState({
-      modal: !this.state.modal
-    })
-  }
-  returnModal(){
-    <Modal onClick={this.props.toggle} />
   }
 
   render() {
@@ -41,7 +30,7 @@ class App extends Component {
                   <Content />
             )
               : (
-                this.returnModal()                
+                <ModalView />              
               )
           }
         </div>

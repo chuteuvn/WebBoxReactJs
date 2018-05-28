@@ -22,22 +22,6 @@ export default class ContentBoxRight extends Component {
                 id: '4',
                 url:'http://www.likenmfg.com/image/cache/data/demo/product-4_1-200x275.jpg'
             },            
-            {
-                id: '5',
-                url:'http://www.likenmfg.com/image/cache/data/demo/product-4_1-200x275.jpg'
-            },
-            {
-                id: '6',
-                url:'http://www.likenmfg.com/image/cache/data/demo/product-4_1-200x275.jpg'
-            },
-            {
-                id: '7',
-                url:'http://www.likenmfg.com/image/cache/data/demo/product-4_1-200x275.jpg'
-            },
-            {
-                id: '8',
-                url:'http://www.likenmfg.com/image/cache/data/demo/product-4_1-200x275.jpg'
-            },
           ]
         };
       }
@@ -65,6 +49,7 @@ export default class ContentBoxRight extends Component {
                             <div className="col-sm-8">
                                 <div className="clearfix group-image row">
                                     {
+
                                         this.renderImage()
                                     }
                                 </div>
@@ -76,7 +61,13 @@ export default class ContentBoxRight extends Component {
                                     </label>               
                                 </div>
                             </div>
-                        </div>   
+                        </div>  
+                        <div className="four-step-setting">
+                            <div className="step-number">
+                                <div className="numberItem">4</div>
+                            </div>
+                            <span>Display Option</span>                                            
+                        </div>  
                     </Scrollbars>
                 </div>
             </div>  
